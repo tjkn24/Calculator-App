@@ -25,11 +25,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        // test github modification
     }
 
     fun operationFunction(view: View) {
 
-        var editText: EditText? = findViewById(R.id.edit_text)
+        val editText: EditText? = findViewById(R.id.edit_text)
 
         when (view.id) {
             R.id.button_one -> {
