@@ -17,6 +17,7 @@
             android:layout_above="@id/buttonsContainer"
             android:background="@android:color/background_light"
             android:layout_marginBottom="4dp"/>
+
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -24,7 +25,8 @@
             android:orientation="vertical"
             android:layout_alignParentBottom="true"
             android:id="@+id/buttonsContainer"
-    >
+            >
+
         <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -42,7 +44,7 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginEnd="8dp"
                     android:text="@string/button_one"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"
                     />
 
@@ -55,7 +57,7 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginEnd="8dp"
                     android:text="@string/button_two"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
             <Button
@@ -66,7 +68,7 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginEnd="8dp"
                     android:text="@string/button_three"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
             <Button
@@ -75,7 +77,7 @@
                     android:layout_height="75dp"
                     android:layout_weight="2"
                     android:text="@string/button_divide"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
         </LinearLayout>
@@ -97,7 +99,7 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:text="@string/button_four"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
             <Button
@@ -108,7 +110,7 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:text="@string/button_five"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
             <Button
@@ -119,7 +121,7 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:text="@string/button_six"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
             <Button
@@ -128,7 +130,7 @@
                     android:layout_height="75dp"
                     android:layout_weight="2"
                     android:text="@string/button_minus"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
         </LinearLayout>
@@ -150,7 +152,7 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:text="@string/button_seven"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
             <Button
@@ -161,7 +163,7 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:text="@string/button_eight"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
             <Button
@@ -172,7 +174,7 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:text="@string/button_nine"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
             <Button
@@ -181,7 +183,7 @@
                     android:layout_height="75dp"
                     android:layout_weight="2"
                     android:text="@string/button_sum"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
         </LinearLayout>
@@ -203,6 +205,7 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:text="@string/button_clear"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
             <Button
@@ -213,6 +216,7 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:text="@string/button_zero"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
             <Button
@@ -222,8 +226,8 @@
                     android:layout_weight="2"
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
-                    android:textSize="18sp"
                     android:text="@string/button_dot"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"
                     />
 
@@ -233,6 +237,7 @@
                     android:layout_height="75dp"
                     android:layout_weight="2"
                     android:text="@string/button_equal"
+                    android:textSize="@dimen/button_size"
                     android:onClick="operationFunction"/>
 
         </LinearLayout>
